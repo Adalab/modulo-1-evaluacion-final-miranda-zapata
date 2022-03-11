@@ -1,0 +1,29 @@
+.hero {
+  background-image: url(../images/hero.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 389px;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+/* Revisar. En versión mobile el header se queda quieto, pero una vista normal en navegador sin DevTools el header sí se queda fijo */
+
+.hero__title {
+  color: $colorEden;
+  font-size: 24px;
+  margin-bottom: 24px;
+}
+
+.hero__button {
+  font-family: $fontMain;
+  font-size: 16px;
+  padding: 12px 24px;
+  color: $colorWhite;
+  text-transform: capitalize;
+  background-color: $colorEden;
+  margin-bottom: 64px;
+}
