@@ -1,0 +1,45 @@
+/*
+Cuarto módulo (Disfruta creando espacios):se puede maquetar usando las propiedades de CSS que se
+deseen.
+*/
+
+.module4 {
+  background-color: $colorPampas;
+  color: $colorEden;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+
+  //   padding: 41px 47px 41px 45px;
+}
+
+.module4__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 339px;
+  padding: 0px 27px;
+}
+
+.module4__container--title {
+  font-size: 24px;
+}
+
+.module4__container--text {
+  font-size: 14px;
+}
+
+.module4__container--button {
+  font-family: $fontMain;
+  font-size: 16px;
+  background-color: $colorEden;
+  color: $colorWhite;
+  text-transform: capitalize;
+  padding: 12px 24px;
+  margin-top: 35px;
+}
+
+// .module4__image {
+//   width: 100vw;
+// }
