@@ -1,0 +1,32 @@
+/* El menú superior debe estar fijo en la parte superior de la pantalla y no debe desaparecer al hacer
+scroll. */
+
+.header {
+  background-color: white; /* transparent */
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+}
+
+.menu {
+  position: absolute;
+  top: 55px;
+  left: 33px;
+}
+
+.menu__hamburger--image {
+  width: 24px;
+  height: 24px;
+}
+
+.menu__list {
+  display: none;
+}
+
+.header__logo {
+  width: 213px;
+  height: 96px;
+  margin-top: 19px;
+}
