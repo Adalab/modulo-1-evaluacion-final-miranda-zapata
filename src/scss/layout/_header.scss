@@ -35,3 +35,56 @@ desplega ningún submenú.
   height: 96px;
   margin-top: 19px;
 }
+
+@media all and (min-width: 768px) {
+  .menu {
+    position: absolute;
+    top: 75px;
+    left: 82px;
+  }
+
+  .menu__list {
+    display: none;
+  }
+
+  .header__logo {
+    width: 213px;
+    height: 96px;
+    margin-top: 39px;
+  }
+}
+
+@media all and (min-width: 1200px) {
+  .menu {
+    position: absolute;
+    top: 76px;
+    left: 50px;
+  }
+
+  .menu__hamburger--image {
+    display: none;
+  }
+
+  .header__logo {
+    width: 213px;
+    height: 96px;
+    margin-top: 39px;
+  }
+
+  .menu__list {
+    display: flex;
+    align-items: center;
+  }
+
+  .menu__list--item {
+    list-style-type: none;
+    display: inline-block;
+    padding: 0px 15px;
+  }
+
+  .menu__list--link {
+    text-decoration: none;
+    color: $colorEden;
+    font-size: 16px;
+  }
+}
