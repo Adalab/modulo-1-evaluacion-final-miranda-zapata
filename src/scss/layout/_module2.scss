@@ -1,0 +1,17 @@
+/* 
+Segundo módulo (Volverse organizado se siente mejor con Open Spaces):debe estar maquetado con
+CSS Grid. 
+*/
+
+.module2 {
+  background-color: $colorPampas;
+  color: $colorEden;
+  display: grid;
+  grid-template-columns: 1fr;
+  text-align: center;
+  padding: 41px 47px 41px 45px;
+}
+
+.module2__title--caps {
+  text-transform: uppercase;
+}

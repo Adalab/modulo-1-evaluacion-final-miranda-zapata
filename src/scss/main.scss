@@ -1,14 +1,16 @@
 /*
 @import 'components/code';
 @import 'components/links';
-@import 'layout/page';
-@import 'layout/header';
+
+@import 'layout/module3';
+@import 'layout/module4';
 @import 'layout/footer';
-@import 'pages/index';
 */
 
 @import "core/reset";
 @import "core/variables";
+@import "pages/index";
 @import "layout/header";
 @import "layout/hero";
-@import "layout/main";
+@import "layout/module2";
+@import "layout/article";
