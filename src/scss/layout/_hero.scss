@@ -26,9 +26,9 @@ de la ventana del navegador.
 .hero__button {
   font-family: $fontMain;
   font-size: 16px;
-  padding: 12px 24px;
+  background-color: $colorEden;
   color: $colorWhite;
   text-transform: capitalize;
-  background-color: $colorEden;
+  padding: 12px 24px;
   margin-bottom: 64px;
 }

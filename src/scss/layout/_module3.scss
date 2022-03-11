@@ -1,0 +1,33 @@
+/*
+Tercer módulo (Envio gratis garantizado): se puede maquetar usando las propiedades de CSS que se
+deseen.
+*/
+
+.module3 {
+  background-color: $colorAtomicTangerine;
+  color: $colorWhite;
+  text-align: center;
+  padding: 46px 0px 51px 0px;
+}
+
+.module3__icon {
+  margin-bottom: 15px;
+}
+
+.module3__title {
+  font-size: 24px;
+}
+
+.module3__text {
+  font-size: 14px;
+}
+
+.module3__button {
+  font-family: $fontMain;
+  font-size: 16px;
+  background-color: transparent;
+  color: $colorWhite;
+  text-decoration: underline;
+  padding: 12px 24px;
+  margin-top: 15px;
+}
