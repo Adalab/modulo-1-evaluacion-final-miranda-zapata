@@ -11,28 +11,25 @@ CSS Grid.
   text-align: center;
   justify-items: center;
   padding: 41px 47px 41px 45px;
-}
 
-.module2__title--caps {
-  text-transform: uppercase;
-}
-
-@media all and (min-width: 768px) {
-  .module2 {
+  @media all and (min-width: 768px) {
     grid-template-columns: 1fr 1fr 1fr;
     padding: 50px 25px 30px 25px;
-  }
-  .module2__title {
-    grid-column: 1/4;
-  }
-}
 
-@media all and (min-width: 1200px) {
-  .module2 {
+    &__title {
+      grid-column: 1/4;
+    }
+  }
+
+  @media all and (min-width: 1200px) {
     padding: 30px 50px 20px 50px;
+
+    &__title {
+      width: 40ch;
+    }
   }
 
-  .module2__title {
-    width: 40ch;
+  &__title--caps {
+    text-transform: uppercase;
   }
 }

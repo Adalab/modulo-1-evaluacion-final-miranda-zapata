@@ -1,24 +1,20 @@
 .article {
   padding: 25px 55px;
-}
 
-.article__icon {
-  width: 90px;
-  margin-bottom: 39px;
-}
-
-.article__title {
-  margin-bottom: 12px;
-}
-
-@media all and (min-width: 768px) {
-  .article {
+  @media all and (min-width: 768px) {
     padding: 40px 15px;
   }
-}
 
-@media all and (min-width: 1200px) {
-  .article {
+  @media all and (min-width: 1200px) {
     padding: 55px 75px;
+  }
+
+  &__icon {
+    width: 90px;
+    margin-bottom: 39px;
+  }
+
+  &__title {
+    margin-bottom: 12px;
   }
 }
