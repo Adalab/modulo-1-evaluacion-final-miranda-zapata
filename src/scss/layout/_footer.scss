@@ -53,3 +53,31 @@ Quinto módulo (footer): se debe maquetar usando flexbox. Todos los textos de la
 .icon__arrow {
   width: 24px;
 }
+
+@media all and (min-width: 768px) {
+  .footer {
+    flex-direction: row;
+    align-items: flex-end;
+    height: 276px;
+    justify-content: space-evenly;
+    padding-bottom: 92px;
+  }
+
+  .container__social--list {
+    padding: 10px 6px 0px 6px;
+  }
+
+  .icon {
+    padding-right: 0;
+  }
+}
+
+@media all and (min-width: 1200px) {
+  .container__title {
+    font-size: 24px;
+  }
+
+  .container__menu--link {
+    font-size: 16px;
+  }
+}
