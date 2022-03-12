@@ -9,8 +9,6 @@ deseen.
   display: flex;
   flex-direction: column;
   text-align: center;
-
-  //   padding: 41px 47px 41px 45px;
 }
 
 .module4__container {
@@ -40,6 +38,48 @@ deseen.
   margin-top: 35px;
 }
 
-// .module4__image {
-//   width: 100vw;
-// }
+/* .module4__image {
+width: 100vw;
+} */
+
+@media all and (min-width: 768px) {
+  .module4__container--title {
+    font-size: 30px;
+    margin-bottom: 10px;
+  }
+
+  .module4__container--text {
+    width: 45ch;
+  }
+
+  .module4__container--button {
+    margin-top: 25px;
+  }
+}
+
+@media all and (min-width: 1200px) {
+  .module4 {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .module4__container {
+    width: 50vw;
+    align-items: flex-start;
+    padding: 0px 157px;
+  }
+
+  .module4__container--title {
+    text-align: left;
+    width: 15ch;
+  }
+
+  .module4__container--text {
+    text-align: left;
+    width: 30ch;
+  }
+
+  .module4__image {
+    width: 50vw;
+  }
+}
