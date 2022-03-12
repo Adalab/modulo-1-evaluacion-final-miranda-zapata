@@ -52,7 +52,7 @@ Quinto módulo (footer): se debe maquetar usando flexbox. Todos los textos de la
     padding: 16px 6px 0px 6px;
 
     @media all and (min-width: 768px) {
-      padding: 10px 6px 0px 6px;
+      padding: 10px 0 0 0;
     }
   }
 
@@ -60,6 +60,14 @@ Quinto módulo (footer): se debe maquetar usando flexbox. Todos los textos de la
     color: $colorWhite;
     /* ¿font-family: Font Awesome? */
     font-size: 20px;
+    padding: 6px;
+    transition: color 0.3s ease 0s;
+  }
+
+  .container__social--item:hover {
+    background-color: $colorWhite;
+    color: $colorEden;
+    border-radius: 50%;
   }
 
   .icon {
