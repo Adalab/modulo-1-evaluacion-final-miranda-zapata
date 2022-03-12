@@ -46,6 +46,11 @@ deseen.
   }
 
   &__button:hover {
+    background-color: $colorWhite;
+    color: $colorAtomicTangerine;
+    text-decoration-line: none;
     transform: scale(1.2);
+    color: $colorEden;
+    box-shadow: 0 0 10px;
   }
 }

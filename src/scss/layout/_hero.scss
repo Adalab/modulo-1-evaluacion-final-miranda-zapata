@@ -54,5 +54,7 @@ de la ventana del navegador.
 
   &__button:hover {
     transform: scale(1.2);
+    color: $colorSubmarine;
+    box-shadow: 0 0 10px 5px;
   }
 }
