@@ -31,3 +31,20 @@ deseen.
   padding: 12px 24px;
   margin-top: 15px;
 }
+
+@media all and (min-width: 768px) {
+  .module3__title {
+    font-size: 30px;
+    margin-bottom: 10px;
+  }
+}
+
+@media all and (min-width: 1200px) {
+  .module3__title {
+    font-size: 36px;
+  }
+
+  .module3__text {
+    font-size: 16px;
+  }
+}
