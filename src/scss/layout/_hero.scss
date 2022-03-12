@@ -15,7 +15,6 @@ de la ventana del navegador.
   justify-content: flex-end;
   align-items: center;
 }
-/* Revisar. En versión mobile el header se queda quieto, pero una vista normal en navegador sin DevTools el header sí se queda fijo */
 
 .hero__title {
   color: $colorEden;
@@ -31,4 +30,24 @@ de la ventana del navegador.
   text-transform: capitalize;
   padding: 12px 24px;
   margin-bottom: 64px;
+}
+
+@media all and (min-width: 768px) {
+  .hero {
+    height: 100vh;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0 147px;
+  }
+
+  .hero__title {
+    font-size: 36px;
+    width: 15ch;
+  }
+}
+
+@media all and (min-width: 1200px) {
+  .hero {
+    padding: 0 65px;
+  }
 }
