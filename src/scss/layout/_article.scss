@@ -10,3 +10,15 @@
 .article__title {
   margin-bottom: 12px;
 }
+
+@media all and (min-width: 768px) {
+  .article {
+    padding: 40px 15px;
+  }
+}
+
+@media all and (min-width: 1200px) {
+  .article {
+    padding: 55px 75px;
+  }
+}
