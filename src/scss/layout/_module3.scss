@@ -8,43 +8,39 @@ deseen.
   color: $colorWhite;
   text-align: center;
   padding: 46px 0px 51px 0px;
-}
 
-.module3__icon {
-  margin-bottom: 15px;
-}
-
-.module3__title {
-  font-size: 24px;
-}
-
-.module3__text {
-  font-size: 14px;
-}
-
-.module3__button {
-  font-family: $fontMain;
-  font-size: 16px;
-  background-color: transparent;
-  color: $colorWhite;
-  text-decoration: underline;
-  padding: 12px 24px;
-  margin-top: 15px;
-}
-
-@media all and (min-width: 768px) {
-  .module3__title {
-    font-size: 30px;
-    margin-bottom: 10px;
-  }
-}
-
-@media all and (min-width: 1200px) {
-  .module3__title {
-    font-size: 36px;
+  &__icon {
+    margin-bottom: 15px;
   }
 
-  .module3__text {
+  &__title {
+    font-size: 24px;
+
+    @media all and (min-width: 768px) {
+      font-size: 30px;
+      margin-bottom: 10px;
+    }
+
+    @media all and (min-width: 1200px) {
+      font-size: 36px;
+    }
+  }
+
+  &__text {
+    font-size: 14px;
+
+    @media all and (min-width: 1200px) {
+      font-size: 16px;
+    }
+  }
+
+  &__button {
+    font-family: $fontMain;
     font-size: 16px;
+    background-color: transparent;
+    color: $colorWhite;
+    text-decoration: underline;
+    padding: 12px 24px;
+    margin-top: 15px;
   }
 }
