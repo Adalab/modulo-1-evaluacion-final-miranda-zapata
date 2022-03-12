@@ -45,9 +45,14 @@ de la ventana del navegador.
     text-transform: capitalize;
     padding: 12px 24px;
     margin-bottom: 64px;
+    transition: ease 0.2s;
 
     @media all and (min-width: 768px) {
       margin-bottom: 0;
     }
+  }
+
+  &__button:hover {
+    transform: scale(1.2);
   }
 }

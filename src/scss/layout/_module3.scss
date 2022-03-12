@@ -42,5 +42,10 @@ deseen.
     text-decoration: underline;
     padding: 12px 24px;
     margin-top: 15px;
+    transition: ease 0.2s;
+  }
+
+  &__button:hover {
+    transform: scale(1.2);
   }
 }
