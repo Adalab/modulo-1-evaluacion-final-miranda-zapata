@@ -14,44 +14,40 @@ de la ventana del navegador.
   flex-direction: column;
   justify-content: flex-end;
   align-items: center;
-}
 
-.hero__title {
-  color: $colorEden;
-  font-size: 24px;
-  margin-bottom: 24px;
-}
-
-.hero__button {
-  font-family: $fontMain;
-  font-size: 16px;
-  background-color: $colorEden;
-  color: $colorWhite;
-  text-transform: capitalize;
-  padding: 12px 24px;
-  margin-bottom: 64px;
-}
-
-@media all and (min-width: 768px) {
-  .hero {
+  @media all and (min-width: 768px) {
     height: 100vh;
     justify-content: center;
     align-items: flex-start;
     padding: 0 147px;
   }
 
-  .hero__title {
-    font-size: 36px;
-    width: 15ch;
-  }
-
-  .hero__button {
-    margin-bottom: 0;
-  }
-}
-
-@media all and (min-width: 1200px) {
-  .hero {
+  @media all and (min-width: 1200px) {
     padding: 0 65px;
+  }
+
+  &__title {
+    color: $colorEden;
+    font-size: 24px;
+    margin-bottom: 24px;
+
+    @media all and (min-width: 768px) {
+      font-size: 36px;
+      width: 15ch;
+    }
+  }
+
+  &__button {
+    font-family: $fontMain;
+    font-size: 16px;
+    background-color: $colorEden;
+    color: $colorWhite;
+    text-transform: capitalize;
+    padding: 12px 24px;
+    margin-bottom: 64px;
+
+    @media all and (min-width: 768px) {
+      margin-bottom: 0;
+    }
   }
 }
