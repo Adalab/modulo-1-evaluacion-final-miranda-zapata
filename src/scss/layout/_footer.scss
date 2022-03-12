@@ -11,51 +11,8 @@ Quinto módulo (footer): se debe maquetar usando flexbox. Todos los textos de la
   align-items: center;
   height: 545px;
   justify-content: space-evenly;
-}
 
-.footer__container {
-  width: 150px;
-}
-
-.container__menu--list {
-  list-style-type: none;
-  line-height: 20px;
-}
-
-.container__title {
-  font-size: 20px;
-}
-
-.container__menu--link {
-  text-decoration: none;
-  color: $colorSubmarine;
-  font-size: 14px;
-}
-
-.container__social--list {
-  display: inline-block;
-  padding: 16px 6px 0px 6px;
-}
-
-.container__social--item {
-  color: $colorWhite;
-  /* ¿font-family: Font Awesome? */
-  font-size: 20px;
-}
-
-.icon {
-  display: flex;
-  flex-direction: column;
-  align-self: flex-end;
-  padding-right: 28px;
-}
-
-.icon__arrow {
-  width: 24px;
-}
-
-@media all and (min-width: 768px) {
-  .footer {
+  @media all and (min-width: 768px) {
     flex-direction: row;
     align-items: flex-end;
     height: 276px;
@@ -63,21 +20,60 @@ Quinto módulo (footer): se debe maquetar usando flexbox. Todos los textos de la
     padding-bottom: 92px;
   }
 
-  .container__social--list {
-    padding: 10px 6px 0px 6px;
+  &__container {
+    width: 150px;
   }
 
-  .icon {
-    padding-right: 0;
-  }
-}
-
-@media all and (min-width: 1200px) {
   .container__title {
-    font-size: 24px;
+    font-size: 20px;
+
+    @media all and (min-width: 1200px) {
+      font-size: 24px;
+    }
+  }
+
+  .container__menu--list {
+    list-style-type: none;
+    line-height: 20px;
   }
 
   .container__menu--link {
-    font-size: 16px;
+    text-decoration: none;
+    color: $colorSubmarine;
+    font-size: 14px;
+
+    @media all and (min-width: 1200px) {
+      font-size: 16px;
+    }
+  }
+
+  .container__social--list {
+    display: inline-block;
+    padding: 16px 6px 0px 6px;
+
+    @media all and (min-width: 768px) {
+      padding: 10px 6px 0px 6px;
+    }
+  }
+
+  .container__social--item {
+    color: $colorWhite;
+    /* ¿font-family: Font Awesome? */
+    font-size: 20px;
+  }
+
+  .icon {
+    display: flex;
+    flex-direction: column;
+    align-self: flex-end;
+    padding-right: 28px;
+
+    @media all and (min-width: 768px) {
+      padding-right: 0;
+    }
+
+    &__arrow {
+      width: 24px;
+    }
   }
 }

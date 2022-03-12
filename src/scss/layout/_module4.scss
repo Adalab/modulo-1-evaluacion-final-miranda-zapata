@@ -69,11 +69,10 @@ deseen.
         margin-top: 25px;
       }
     }
-
-    @media all and (min-width: 1200px) {
-      &__image {
-        width: 50vw;
-      }
+  }
+  @media all and (min-width: 1200px) {
+    &__image {
+      width: 50vw;
     }
   }
 }
