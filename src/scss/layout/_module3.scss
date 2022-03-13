@@ -1,8 +1,3 @@
-/*
-Tercer módulo (Envio gratis garantizado): se puede maquetar usando las propiedades de CSS que se
-deseen.
-*/
-
 .module3 {
   background-color: $colorAtomicTangerine;
   color: $colorWhite;
@@ -42,7 +37,7 @@ deseen.
     text-decoration: underline;
     padding: 12px 24px;
     margin-top: 15px;
-    transition: ease 0.2s;
+    transition: ease 0.3s;
   }
 
   &__button:hover {
@@ -51,5 +46,6 @@ deseen.
     text-decoration-line: none;
     transform: scale(1.1);
     box-shadow: 0 0 10px;
+    /* No quiero sombra PERO la transición del cambio de letra es más suave, más bonita, con box shadow O.o */
   }
 }

@@ -1,8 +1,3 @@
-/* 
-Quinto módulo (footer): se debe maquetar usando flexbox. Todos los textos de la columna
-"NOSOTROS" y todos los textos de la columna "SHOP" deben ser enlaces a la página de Adalab.
-*/
-
 .footer {
   background-color: $colorEden;
   color: $colorSubmarine;
@@ -45,6 +40,10 @@ Quinto módulo (footer): se debe maquetar usando flexbox. Todos los textos de la
     @media all and (min-width: 1200px) {
       font-size: 16px;
     }
+  }
+
+  .container__menu--link:hover {
+    color: $colorWhite;
   }
 
   .container__social--list {

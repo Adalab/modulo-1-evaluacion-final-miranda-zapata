@@ -1,8 +1,3 @@
-/*
-Primer módulo (Disfruta creando espacios): debe estar maquetado con flexbox y debe ocupar el alto
-de la ventana del navegador.
-*/
-
 .hero {
   background-image: url(../images/hero.jpg);
   background-repeat: no-repeat;
@@ -45,7 +40,7 @@ de la ventana del navegador.
     text-transform: capitalize;
     padding: 12px 24px;
     margin-bottom: 64px;
-    transition: ease 0.2s;
+    transition: ease 0.3s;
 
     @media all and (min-width: 768px) {
       margin-bottom: 0;
