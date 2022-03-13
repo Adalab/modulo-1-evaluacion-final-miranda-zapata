@@ -72,9 +72,8 @@ deseen.
     }
 
     &--button:hover {
-      transform: scale(1.2);
-      color: $colorSubmarine;
-      box-shadow: 0 0 10px 5px;
+      transform: scale(1.1);
+      box-shadow: $colorSubmarine 0 0 10px 5px;
     }
   }
   @media all and (min-width: 1200px) {

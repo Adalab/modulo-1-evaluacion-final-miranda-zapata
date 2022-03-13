@@ -82,6 +82,19 @@ Quinto módulo (footer): se debe maquetar usando flexbox. Todos los textos de la
 
     &__arrow {
       width: 24px;
+      animation-name: bounce;
+      animation-duration: 0.5s;
+      animation-iteration-count: infinite;
+      animation-direction: alternate;
+    }
+
+    @keyframes bounce {
+      0% {
+        transform: translateY(0px);
+      }
+      100% {
+        transform: translateY(20px);
+      }
     }
   }
 }
