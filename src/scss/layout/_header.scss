@@ -1,13 +1,14 @@
 .header {
   background-color: transparent;
-  position: fixed;
+  position: absolute;
   top: 0;
   width: 100vw;
   display: flex;
   justify-content: center;
 
   .menu {
-    position: absolute;
+    position: fixed;
+    z-index: 1;
     top: 55px;
     left: 33px;
 
@@ -63,6 +64,8 @@
   }
 
   &__logo {
+    position: static;
+    z-index: 1;
     width: 213px;
     height: 96px;
     margin-top: 19px;
