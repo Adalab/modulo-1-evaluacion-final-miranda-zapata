@@ -1,3 +1,22 @@
+/* Sección extra desarrollada durante la entrevista técnica */
+.products {
+  background-color: $colorEden;
+  color: $colorWhite;
+  display: grid;
+  grid-template-columns: 1fr;
+  text-align: center;
+
+  @media all and (min-width: 768px) {
+    grid-template-columns: 1fr 1fr;
+    padding: 0 30px;
+  }
+
+  &__title {
+    grid-column: 1/4;
+  }
+}
+/* */
+
 .module3 {
   background-color: $colorAtomicTangerine;
   color: $colorWhite;
